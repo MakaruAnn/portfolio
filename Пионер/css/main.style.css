@@ -1,0 +1,470 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+*{
+margin: 0 auto;
+padding: 0;
+font-family: "Source Sans 3", sans-serif ;
+}
+header
+{
+width: 90%;
+padding: 25px 0;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+header nav{
+width: 100%;
+margin-top: 15px ;
+padding-top:25px ; 
+border-top: 1px solid #888888;
+display: flex;
+justify-content: space-between;
+}
+.contacts{
+    display: flex;
+    margin: 0;
+}
+.contacts p{
+    margin: 0%;
+    margin-left: 7vw;
+}
+
+header nav ul
+{
+    display: flex;
+    width: 80%;
+    margin-right: 6%;
+    padding-left: 0;
+    margin-left: 0;
+    list-style: none;
+}
+
+header nav a{
+color: #607CE6;
+text-decoration: none;
+font-size: 20px;
+}
+
+ul li a{
+    font-size: 20px;
+color: #333;
+text-decoration: none;
+}
+
+.logo-header{
+margin-left: 8vw;
+float: left;
+}
+
+header p span
+{
+display: block;
+color: #607CE6;
+font-size: 20px;
+font-weight: 600;
+}
+header p, span{
+    text-align: right;
+}
+
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: 3% 5%;
+}
+.wrap
+{
+display: flex;
+flex-wrap: wrap;
+justify-content:space-between;
+}
+
+.logo{
+    margin: 0;
+    padding-right: 30vw;
+    width: 180px;
+}
+/*footer ul{
+width: 20vw;
+list-style: none;
+float: left;
+}*/
+
+footer ul li a{
+color: #fff;
+}
+
+footer ul {
+display: grid;
+grid-template-columns: 10vw 10vw 10vw;
+grid-template-rows: repeat(4, 35px);
+gap: 15px 10%
+
+}
+
+/*размер текста в списке*/
+footer ul li{ 
+    font-size: 20px;
+    width: 10vw;
+    list-style: none;
+}
+
+/*нижняя строчка*/
+footer p {
+   width: 100%;
+   padding-top: 50px;
+   text-align: center;
+   font-size: 20px;
+}
+
+main{
+   width: 90%; 
+}
+
+h1{
+    font-size: 60px;
+    margin:0;
+    width: 35vw;
+}
+h2{
+    font-size: 48px;
+    padding: 20px 0;
+}
+h3{
+    font-size: 28px;
+}
+
+.banner{
+    padding: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.banner p{
+    padding-top: 20px;
+    width: 20% ;
+    font-size: 18px;
+}
+.banner img{
+   width: 100%;
+   padding-top: 50px;
+}
+
+.grid{
+display: grid;
+grid-template-columns: 44vw 44vw;
+gap: 3% 1vw;
+margin-bottom: 50px;
+font-size: 18px;
+color: #747373;
+}
+.grid img{
+    width: 100%;
+}
+.column{
+    margin: 0;
+    width: 23%;
+    margin-bottom: 30px;
+    padding: 50px;
+    background-color: #f5f5f5 ;
+}
+.column img{
+    margin-bottom: 30px;
+    width: 70%; 
+}
+.column a{
+    text-decoration: none;
+    color: #607CE6;
+    font-size: 20px;
+    padding-top: 35px;
+}
+.column a:hover{
+   transition: 1s;
+   color: #242f58 ;
+}
+.wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.news{
+    display: flex;
+    justify-content: space-between;
+}
+.column-news{
+    margin: 0;
+    width: 25vw;
+    padding-bottom: 25px;
+    font-size: 20px;
+    margin-bottom: 80px;
+    background-color: #f5f5f5
+    
+}
+.column-news img{
+    margin-bottom: 10px;
+    width: 100%;
+}
+.column-news p{
+    padding-bottom: 60px;
+    padding-left: 15px;
+}
+.inner time{
+    padding-left: 12vw;
+    font-size: 18px ;
+    color: #888888;
+}
+.inner a{
+    padding-left: 15px;
+    text-decoration: none;
+    color: #607CE6;
+    font-size: 20px;
+}
+.inner a:hover{
+    transition: 1s;
+    color: #242f58 ;
+}
+
+/*Адаптивные стили*/
+@media (max-width: 1440px){
+body{
+    font-size: 1em;
+}
+
+header nav ul{
+    margin-right: 0;
+}
+.logo-header{
+    margin-right: 20%;
+}
+.inner time{
+    padding: 0%;
+    padding-left:80px ;
+}
+}
+/*Ноутбук 1230*/
+@media (max-width: 1230px){
+    body{
+        font-size: 2em;
+    }
+    header nav ul {
+        display: block;
+    }
+    header nav{
+        display: block;
+    }
+    .contacts{
+        font-size: 16px;
+    }
+    .logo-header{
+        margin: 0;
+        margin-left:5vw ;
+    }
+    h1{
+        font-size: 4vw;
+    }
+    .banner p{
+        width: 300px;
+        margin: 0;
+        margin-left: 20vw;
+    }
+
+    .grid p{
+        font-size: 16px;
+    }
+    .column{
+        width: 35%;
+
+    }
+    .column-news{
+        width: 28vw;
+        font-size: 17px;
+    }
+    .inner{
+        font-size: 16px;
+        align-items: end;
+        
+    }
+    .inner time{
+        padding: 0;
+        margin-left: 30px;
+    }
+    footer a   {
+       font-size: 10px;
+    }
+
+    footer ul li a{ 
+    font-size: 16px;
+   
+    list-style: none;
+    }
+    .logo{
+        padding: 0%;
+    }
+   footer  p{
+    font-size: 16px;
+   }
+   
+   footer ul {
+    display: grid;
+    grid-template-columns: 15vw 15vw 15vw;
+    grid-template-rows: repeat(4, 35px);
+    gap: 15px 10%
+    }
+    footer ul li{
+        width: 200px;
+    }
+    h2{
+        font-size: 40px;
+    }
+    
+}
+
+@media (max-width: 740px){
+    body{
+        font-size: 2em;
+    }
+    header nav ul {
+        display: block;
+        font-size: 16px;
+    }
+    header nav ul a {
+       padding-bottom: 10px; 
+      
+    }
+    .logo-header{
+        margin: 0;
+    }
+    .column{
+        width: 70%;
+    }
+header p span{
+    font-size: 1em;
+    padding-bottom: 0.5em;
+}
+.contacts{
+    font-size: 14px;
+    display: flex;
+}
+.banner p{
+    margin: 0;
+    padding: 0;
+    margin-left: 10vw;
+    font-size: 16px;
+}
+h2{
+    font-size: 40px;
+}
+.grid{
+    display: block;
+}
+.grid p{
+    margin-top:  20px ;
+}
+.grid img{
+    margin-top:  20px ;
+}
+footer  p{
+    font-size: 14px;
+   }
+   
+   footer ul {
+    display: grid;
+    grid-template-columns: 16vw 16vw 16vw;
+    grid-template-rows: repeat(4, 35px);
+    gap: 15px 10%
+    }
+    footer ul li a{
+       font-size: 15px;
+    }
+    .logo img{
+        width: 80%;
+    }
+    .news{
+        display: block;
+    }
+    .news p{
+        font-size:14px;
+    }
+  
+    .column-news{
+        width: 100%;
+    }
+    .inner{
+        display: flex;
+    }
+    .inner time{
+        
+        padding-left: 40% ;
+    }
+   
+}
+/*телефон */
+@media (max-width: 576px){
+    .logo-header{
+      width: 87vw;
+      margin-right: 0;
+    }
+    header nav ul {
+        display: block;
+        
+    }
+    header nav ul a {
+       padding-bottom: 10px; 
+       font-size: 15px;
+    }
+    .banner{
+        padding:0;
+      
+        display: block;
+    }
+    .banner p{
+        margin: 0%;
+        margin-top: 20px;
+    }
+    h2{
+        font-size: 7vw;
+    }
+.wrap{
+   display: block;
+}
+.column{
+    width: 40%;
+}
+
+  .news p{
+        font-size: 14px;
+    }
+
+.news{
+    display: block;
+}
+.column-news{
+    width: 100%;
+}
+.inner time{
+    font-size: 16px;
+    padding-left: 40%;
+}
+.inner a{
+    font-size: 16px;
+}
+.wrap{
+    display: block;
+}
+.column{
+    width: 70%;
+}
+footer ul {
+    display: grid;
+    grid-template-columns: 15vw 15vw 15vw;
+    grid-template-rows: repeat(4, 35px);
+    gap: 15px 10%
+    }
+    footer ul li a{
+       font-size: 14px;
+    }
+
+    
+}
+
