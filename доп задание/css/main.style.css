@@ -1,0 +1,141 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    font-size: 20px;
+}
+/*Шапка*/
+header{ 
+padding: 25px 0;
+background-color: #2c56c0;
+font-size: 27px;
+}
+header nav{ 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-top: 40px;
+}
+
+header nav ul
+{
+    display: flex;
+    width: 50%;
+    list-style: none;
+}
+header nav a{
+    display: flex;
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 24px ;
+    color: azure;
+}
+
+/*Баннер*/
+.banner img{
+  width: 100%;  
+}
+
+/*Таблица*/
+.table{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+}
+.table h1{
+    padding: 15px;
+}
+table{
+    width: 100%;
+    border: 1px solid black;  
+    border-collapse: collapse;
+}
+table td, tr{
+   padding: 10px ;
+    border: 1px solid black; 
+}
+
+/*Блок с текстом*/
+.text{
+    margin-top: 40px;
+    width: 80%;
+    height: 23vw;
+    margin-bottom: 50px;
+}
+
+ span{
+    text-align: center;
+    font-size: 32px;
+    margin: 20px;
+    font-weight: 550;
+}
+.list{
+    padding-left: 20px;
+}
+.text p{
+    margin-bottom:20px;
+    margin-top: 20px;
+}   
+
+/*Сотрудники*/
+.people{
+    padding-top: 30px;
+    background-color: #2c56c0 ;
+     text-align: center;
+}
+
+.people span{
+    font-size: 32px;
+    margin: 20px;
+    font-weight: 550;
+    color: azure;
+}
+.wrap{
+    width: 80%;
+    display: flex;
+    justify-content:space-between;
+    color: azure;
+}
+
+.column{
+    display: flex;
+   flex-direction: column;
+   padding: 10px;
+   margin-top: 20px;
+   margin-bottom: 30px;
+}
+
+.column img{
+    margin-bottom: 10px;
+    width: 340px;
+    height: auto;  
+}
+.column p{
+    font-size: 23px;
+}
+button{
+font-size: 22px;
+    color: azure;
+    width: 340px;
+    height: 45px;
+    margin-top: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(17, 17, 17);
+    box-shadow: 20px  #c1c3ca;
+}
+/*Подвал*/
+footer{
+    margin-top: 35px;
+    height: 5vw;
+    text-align: center;
+}
+footer p{
+    font-size: 24px;
+}
+#name{
+    margin: 0;
+    font-size: 25px;
+    font-weight: 600;
+}
