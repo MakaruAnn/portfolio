@@ -1,0 +1,1079 @@
+@import url('https://fonts.googleapis.com/css2?family=Duru+Sans&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+  font-size: 14px;
+  margin-top: 0;
+  font-family: "Duru Sans", sans-serif; 
+  
+}
+.icon-375{
+  display: none;
+}
+.verstka-768{
+  display: none;
+}
+.advantages-img-362{
+  display: none;
+}
+#facebook-376{
+  display: none;
+}
+/*Строка поиска*/
+form {
+    background-color: #EBEBEB;
+    width: 685px;
+    height: 35px;
+    font-weight: 550;
+    margin-left: 14%;
+    margin-top: 3%;
+ 
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+  }
+
+ 
+  .menu-blok form input {
+    all: unset;
+    font-size: 16px ;
+    height: 100%;
+    width: 100%;
+    padding: 10px 30px;
+    letter-spacing: 1px;
+  }
+  ::placeholder {
+    color: #858585;
+    opacity: 0.7; 
+  }
+  button {
+  all: unset;
+  cursor: pointer;
+  width: 44px;
+  height: 45px;
+}
+ .main_menu{
+  margin: 0 10%;
+  display: flex;
+  
+  }
+
+header{
+  background-image: url("../media/castel.jpg") ;
+  background-repeat: no-repeat;
+  background-size: 100% 100% ;
+  height: 680px;
+  flex-wrap: wrap;
+}
+.rectangle{
+  background: rgba(255, 255, 255, 0.178);
+  backdrop-filter: blur(4px);
+  width: 100%;
+  height: 120px;
+}
+.main-menu{
+  display: flex;
+  margin: 0 10%;
+}
+.menu-blok{
+  display: block;
+  margin-left: 5%;
+  width: 80%;
+}
+.logo-menu{
+  margin-top: 15px;
+}
+
+.icon{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+  width: 20%;
+}
+.number {
+  display: flex;
+  margin-top: 15px ;
+  width: 150px;
+}
+.number img{
+  width: 15px; 
+  height: 15px;
+}
+.eleps{
+  margin-right: 10px;
+  padding: 2px;
+}
+
+/*Список*/
+nav{
+width: 100%;
+margin-top: 15px;
+margin-right: 100px;
+}
+ nav ul {
+  display: flex;
+  justify-content:space-between;
+  width: 90%;
+  list-style: none;  
+}
+ nav ul a{
+  text-decoration: none;
+  color: #EBEBEB;
+  
+}
+ nav ul a
+  {
+  display: flex;
+  width: 100%;
+  list-style: none;
+  justify-content: space-between;
+  margin-top: 0%;
+  padding: 0;
+ 
+  }
+  /*Баннер*/
+
+  .title{
+   font-size: 32px;
+   background: linear-gradient(-45deg, #D8B66D , #FFEAB5 40%, #E7C278 , #ECC987 90%);
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
+   line-height: 50px;
+  } 
+
+  .banner button {
+    width: 300px;
+    height: 55px;
+    background: linear-gradient(-45deg, #D8B66D , #FFEAB5 40%, #E7C278 , #ECC987 90%);
+    border: 2px solid #D8B66D ;
+    border-radius: 100px;
+    box-shadow: 0px 0px 40px 0px #E7C278 ;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 60px;
+
+    letter-spacing: 2px;
+  }
+  .banner button:hover{
+
+    background: linear-gradient(90deg, #45D933 , #45D933 , #25731B ) ;
+    border: 2px solid #25731B;
+    box-shadow: 0px 0px 40px 0px #45D933 ;
+  }
+
+  .banner p{
+    margin-top: 50px;
+    color: #EBEBEB;
+    line-height: 30px;
+  }
+.banner{
+  margin:50px 0 0 15%;
+}
+  
+
+ /*О предприятии*/
+.company{
+  margin: 4% 15% 3% 15%;
+  display: flex;
+}
+.text{
+  display: block;
+  margin-right: 5%;
+  padding-top: 5%;
+}
+.text p{
+  width:395px ;
+  line-height: 30px;
+}
+.text p span{
+  color: #748148;
+  font-size: 15px;
+  -webkit-text-stroke-color: #748148;
+  -webkit-text-stroke-width: 0.1px;
+}
+.text h1 {
+  border-bottom: 4px solid #B9CD76 ;
+  padding-bottom: 20px;
+  font-size: 32px;
+}
+.carusel-list{
+  display: flex;
+  padding-left:30px ;
+
+}
+.carusel img{
+ width: 80%;
+  border-radius: 30px;
+  margin: 7%;
+}
+#green{
+  box-shadow: 0px 0px 40px 15px  #b9cd76;
+}
+#blue{
+  box-shadow: 0px 0px 40px 15px  #4d5b8b;
+}
+#black{
+  box-shadow: 0px 0px 40px 15px  #202742;
+}
+#orange{
+  box-shadow: 0px 0px 40px 15px  #A4743D;
+}
+.carusel-list .img-wrap{
+  display: flex;
+  align-items: center;
+  user-select: none;
+  cursor: pointer;
+}
+
+
+/*Преимущества*/
+.advantages{
+  background-image: url("../media/section 3.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100% ;
+  display: flex;
+}
+.advantages-flex{
+  display: flex;
+  margin: 2% 10%;
+}
+.group{
+  display: block;
+  flex-wrap: wrap;
+margin-left: 7vw ;
+}
+.all_elements .advantages-img-768{
+  display: none;
+}
+.all_elements{
+    display: grid;
+  grid-template-columns: 280px 280px 90px;
+  grid-template-rows: 150px 150px;
+  gap: 0 70px;
+}
+.elements{
+  display: block;
+  width: 274px ;
+  height: 100px;
+  font-size: 14px;
+  color: #EBEBEB;
+  margin-right: 5vw; 
+}
+
+.advantages h1{
+  font-size: 32px;
+  color:  #c3da7b;
+}
+.all_elements span{
+  font-size: 20px;
+  color:  #c3da7b; 
+  font-weight: 500;
+}  
+.elements p{
+  margin-top:  15px;
+  line-height: 20px;
+  letter-spacing: 0.7px;
+}
+
+/*Тарифы*/
+.card{
+display: block;
+margin: 5% 10%;
+}
+.card-list .card-item{
+  list-style: none;
+}
+.card-list .card-item .card-link{
+  user-select: none;
+  width: 400px;
+  height: 550px;
+  display: block;
+  background: #ebebeba1;
+border-radius: 12px;
+padding: 15px 15px 0 15px;
+text-decoration: none;
+box-shadow: 0 10px 10px #00000031;
+}
+.card-list .card-item .card-link:hover{
+  border: 2px solid #D8B66D ;
+transform: 0.2s ease;
+}
+
+.card-list .card-link .card-image{
+  width: 100%;
+  border-radius: 12px;
+}
+.card-title{
+  color: black;
+  font-size: 24px;
+  margin-top: 20px;
+}
+.card-text{
+  color: black;
+  height: 70px;
+  margin-top: 10px;
+  
+}
+.card-list .card-link .card-button{
+  width: 160px;
+  height: 35px;
+  border-radius: 30px;
+  border: 2px solid rgb(230, 192, 110);
+   background:linear-gradient(-45deg, #D8B66D , #FFEAB5 40%, #E7C278 , #ECC987 90% ) ;
+  color: black;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+ margin-top: 30px;
+}
+.card-list .card-link:hover .card-button{
+ background:linear-gradient(-45deg, #D8B66D , #FFEAB5 40%, #E7C278 , #ECC987 90% ) ;
+ transform: 0.2s; 
+ box-shadow: 0px 0px 31px 0px #D6A33F;
+
+}
+.title-price span{
+  font-size: 32px;
+  margin: 5%;
+
+}
+.card-wrapper{
+  margin: 3% 0;
+}
+
+/*Форма*/
+.form-bakground{
+  background: linear-gradient(-45deg, #D8B66D , #FFEAB5 40%, #E7C278 , #ECC987 90% ) ;
+  border-radius:50px;
+}
+.form{
+  margin:5% 10% ;
+  display: flex;
+  justify-content: center;
+  
+}
+.info-column{
+  display: block;
+  margin: 5% 0;
+  border-right: 3px solid #896217;
+  
+}
+.info-column h1{
+ font-size: 32px;
+}
+.info-column p{
+ font-size: 14px;
+ text-align: center;
+ width: 330px;
+ line-height: 30px;
+}
+.icon-grid{
+  margin-top: 4vw;
+  display: grid;
+ grid-template-columns: 25px auto;
+grid-template-rows: auto auto auto;
+gap: 5px 5px;
+}
+
+.icon-grid p{ 
+  text-align: start;
+  
+}
+
+.icon-grid img{
+padding-right: 2vw;
+}
+
+/*Фориа 2 часть*/
+.form-colomn{
+  margin: 6% 0 0 5%;
+  display:grid;
+  grid-template-columns: 90px 260px;
+  grid-template-rows: 45px 45px 45px 45px;
+  gap: 40px 10px;
+}
+.form-colomn label{
+ padding-top: 15px;
+}
+
+.form-colomn input{
+ background-color: rgba(255, 255, 255, 0.459);
+  border: 2px solid rgba(232, 231, 231, 0.796);
+  border-radius: 20px;
+  letter-spacing: 0.5px;
+  height: 40px;
+  padding: 5px 15px;
+  box-shadow: -1px 2px 24px -13px rgba(34, 60, 80, 0.6) inset;
+ 
+}
+.form-colomn select{
+  background-color: rgba(255, 255, 255, 0.459);
+  border: 2px solid rgba(232, 231, 231, 0.796);
+  border-radius: 10px;
+  padding: 5px 15px;
+  letter-spacing: 0.5px;
+  margin: 10px 0;
+  color: #000000;
+  height: 45px;
+  width: 100%;
+  box-shadow: -1px 2px 24px -13px rgba(34, 60, 80, 0.6) inset;}
+
+.message{
+  display: block;
+margin: 6% 0 5% 5%;
+}
+  textarea{
+
+  width: 80%;
+  height:50% ;
+  background-color: rgba(255, 255, 255, 0.459);
+  color: rgb(0, 0, 0);
+  border: 2px solid rgba(232, 231, 231, 0.796);
+  border-radius: 15px;
+  padding: 1rem 1.2rem;
+  letter-spacing: 0.5px;
+  margin: 3% 0;
+  box-shadow: -1px 2px 24px -13px rgba(34, 60, 80, 0.6) inset;
+  margin-left: auto;
+margin-left: auto;
+  }
+  
+
+  .btn-form{
+background: #ffffff5b;
+border: 2px solid #DBBE3C;
+border-radius: 20px;
+margin-left:  25%;
+text-align: center;
+width: 200px;
+  }
+  .btn-form:hover{
+    background: linear-gradient(90deg, #45D933 , #45D933 , #25731B ) ;
+border: 2px solid #25731B;
+box-shadow: 0px 0px 40px 0px #45D933 ;
+  }
+
+/*Отзывы*/
+
+.reviews{
+  margin: 5% 10%;
+  display: block;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  
+}
+.reviews span{
+  font-size: 32px;
+}
+.comment-flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-top: 30px;
+}
+.comment{
+  display: block;
+  /*background: #F1F9FF;*/
+  background: linear-gradient(-45deg, #AACB65,#FFD2CF  );
+  box-shadow: 0px 6px 25px -4px rgba(34, 60, 80, 0.2);
+  padding: 20px;
+  width: 345px;
+  height: 155px;
+  border: 2px solid #d8ebf9;
+}
+.comment:hover{
+  border: 3px solid #FFD2CF ;
+  box-shadow: 0px 6px 30px -4px #f8c1bd;
+}
+
+.user{
+  display: flex;
+  margin-bottom: 20px;
+}
+.user img{
+  margin-right: 15px;
+ height: 35px;
+ height: 35px;
+}
+.user p{
+  
+  margin-top: 10px ;
+}
+/*Подвал*/
+.bakground-footer{
+  background: #273526;
+   
+}
+.wrap{
+  margin: 0 10%;
+  display: flex;
+  padding-top: 3%;
+  border-bottom: 1px solid #ffffff;
+  
+}
+
+
+.logo {
+  margin-right:8% ;
+  padding-left: 5%; 
+  margin-bottom: 2%;
+ 
+}
+
+footer nav{
+  margin-top: 2%;
+}
+
+/*Значки*/
+.icon-flex{
+  display: flex;
+  justify-content: space-between;
+  width: 180px;
+  height: 50px;
+  
+}
+.eleps{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  background: #D9D9D9;
+  border: 2px solid #818181;
+  height: 35px;
+  width: 35px;
+  border-radius: 19px;
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2) inset;
+}
+.eleps:hover{
+  background: linear-gradient(-45deg, #D8B66D , #FFEAB5 40%, #E7C278 , #ECC987 90% ) ;
+  border: 2px solid #505050;
+}
+.footer-end{
+  margin: 2%  10% 0 10%;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-end p{
+  color: #EBEBEB;
+  
+}
+
+@media (max-width: 1440px){
+ body{
+  margin: 0%;
+ 
+ }
+.menu-blok{
+  width: 70%;
+  margin:15px 0 ;
+}
+.menu-blok form{
+  width: 70%;
+}
+.menu-blok nav{
+  width: 100%;
+
+}
+.menu-blok nav ul li a{
+
+  padding: 0%;
+}
+.number p{
+  margin: 0 0 0 10px;
+  width: 130px;
+}
+.icon{ width: 25%;
+  margin-bottom:20px ;
+ 
+}
+.carusel{
+  height: 80%;
+  margin-top: 10%;
+}
+.group{
+  margin-left:7%;
+
+}
+.advantages-flex{
+  margin: 3% 10%;
+}
+.advantages-flex img{
+  margin-top: 10%;
+}
+.advantages{
+  background-image: url("../media/преимущества.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100% ;
+  display: flex;
+}
+
+.all_elements{
+  display: grid;
+grid-template-columns: 280px 280px ;
+grid-template-rows: 150px 150px 150px;
+gap: 0 70px;
+
+}
+
+.card-list .card-item .card-link{
+  width: 300px;
+  height: 520px;
+ 
+  display: block;
+  background: #ebebeba1;
+border-radius: 12px;
+padding: 15px 15px 0 15px;
+text-decoration: none;
+box-shadow: 0 10px 10px #00000031;
+}
+.card-list{
+  padding-left:30px
+}
+.card-item p{
+  height: 100px;
+
+}
+.comment{
+  width: 80%;
+  margin: 0 30px;
+}
+.eleps{
+ margin: 0%;
+ border-radius: 20px;
+}
+.footer-end .icon-flex{
+  margin-right:10px ;}
+
+  .btn-form{
+    margin-left:  15%;
+    width: 200px;
+      }
+}
+
+
+@media (max-width: 768px){
+  header{
+    background-image: url("../media/castel-768.jpg") ;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+  }
+  *{
+    font-size: 14px;
+  }
+  .company{
+    margin: 0 10%;
+    display: block;
+  
+  }
+  .company .text{
+    margin: 0;
+  }
+  .company .text p{
+    width: 100%;
+  }
+
+  .advantages{
+    background-image: url("../media/bakground 768.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100% ;
+    display: flex;
+  }
+  .advantages-img{
+    display: none;
+  }
+  .all_elements .advantages-img-768{
+    display: block;
+    padding: 0;
+    width: 160px;
+    margin: 0 55px;
+  }
+  .all_elements .advantages-img-768 img{
+    width: 150px;
+    height: 150px;
+  }
+  .advantages-flex{
+    display: grid;
+    margin: 2% 5%;
+    flex-wrap: wrap;
+  }
+
+  .group{
+    display: block;
+    flex-wrap: wrap;
+  margin-left: 7vw ;
+  padding: 5% 0;
+  }
+  .all_elements{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+
+  .elements{
+    margin-right: 0vw; 
+    margin-top: 15px ;
+  }
+
+
+  .card-list .card-item .card-link{
+    width: 500px;
+    height: 100%;
+    padding: 30px;
+   
+  }
+  .card-wrapper{
+   width: 100%;
+  }
+
+.card-item{
+  display: flex;
+  justify-content: center;
+ align-items: center;
+}
+.card-link p{
+  height: 40px;
+}
+.card-button{
+  margin-bottom: 3% ;
+}
+.form{
+  display: block;
+  margin: 5% 15%;
+  padding: 5% 0;
+}
+
+.info-column{
+  display: block;
+  border-right: 3px solid #89611700;
+  padding: 0 5%;
+}
+.main-menu{
+  margin: 0 10px;
+}
+.menu-blok form{
+  width: 100%;
+}
+.menu-blok nav{
+   margin-left: 68%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color:#f0efef8c ;
+  padding: 50px 20px 20px 10px;
+  width: 200px;
+  margin-top:16%; 
+  
+}
+.menu-blok nav ul {
+  display: block; 
+}
+.menu-blok nav ul li{
+  padding: 5px 0;
+ 
+}
+.menu-blok nav ul li a{
+letter-spacing: 1px;
+  color: #122b0c;
+  font-size: 14px;
+}
+.icon{
+  margin: 0 0 0 10vw;
+  width: 15%;
+  z-index: 2;
+}
+.menu-blok{
+  display: block;
+  width: 50%;
+  margin-top: 30px;
+}
+.number{
+  display: none;
+}
+.menu-blok input{
+  width: 100%;
+
+}
+.verstka-768{
+  display: block;
+  width: 100%;
+}
+header{
+height: 500px;
+}
+.banner p{
+display: none;
+}
+.banner{
+  display: flex;
+  flex-wrap: wrap;
+  height: 400px;
+}
+.banner button{
+ margin: 0;
+}
+.form-colomn{
+margin-left: 10%;
+}
+.info-column{
+  margin-left: 10%;
+}
+.btn-form{
+  margin-left:  25%;
+    }
+    .message{
+      margin-top: 10%;
+    } 
+  .message textarea{
+    height: 80px;
+  }
+.comment-flex{
+  display: block;
+}
+.comment{
+  height: 115px;
+  margin-top: 5% ;
+}
+.wrap{
+  margin-top:10%;}
+
+  .wrap nav ul{
+    display: grid;
+    grid-template-columns: 150px 150px 150px ;
+    grid-template-rows: 50px 50px ;
+    padding: 0;
+  }
+  .footer-end{
+    margin-top: 3%;
+  }
+}
+
+
+@media (max-width: 375px){
+  *{
+    font-size: 12px;}
+  .main_menu{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  header{
+    background-image: url("../media/castel-376.jpg") ;
+    background-repeat: no-repeat;
+    background-size: 100% 100% ;
+    flex-wrap: wrap;
+  }
+  .rectangle{
+    height: 170px;
+  }
+  .icon-375{
+    display: flex;
+    padding-top: 40px;
+    padding-left: 40px;
+  }
+  .main_menu .icon-375{
+    margin-left: 4%;
+  }
+  .icon{
+    display: none;
+  }
+  .menu-blok{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    margin: 20px 0 0 0 ;
+  }
+  .eleps{
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+    margin-left: 10px;
+  }
+  .eleps img{
+    width: 15px;
+    height: 15px;
+  }
+  .menu-blok nav{
+    margin: 33% 0 0 48%;
+    padding: 50px 0 0 0 ;
+  }
+  .logo-menu{
+    width: 130px;
+    height: 80%;
+  }
+  .logo-menu img{
+    width: 130px;
+    height: 50%;
+  }
+  .menu-blok form input{
+    width: 300px;
+    
+  }
+  .menu-blok form{
+    width: 300px;
+    margin: 0;
+    z-index: 3;
+  }
+ 
+  .banner button{
+    width: 220px;
+    height: 45px;
+    letter-spacing: 0;
+    font-size: 12px;
+    margin-bottom: 100px;
+  }
+  .banner .title{
+    height: 140px;
+    font-size: 18px;
+    line-height: 40px;
+  }
+
+  .carusel .carusel-list{
+  padding-left: 7px;
+   }
+   #green{
+     box-shadow: 0px 0px 20px 15px  #b9cd76;
+   }
+   #blue{
+     box-shadow: 0px 0px 20px 15px  #4d5b8b;
+   }
+   #black{
+     box-shadow: 0px 0px 20px 15px  #202742;
+   }
+   #orange{
+     box-shadow: 0px 0px 20px 15px  #A4743D;
+   }
+   .all_elements .advantages-img-768{
+    display: none;
+   }
+   .all_elements .advantages-img-362{
+    display: block;
+    padding: 0;
+    width: 160px;
+    margin: 0 55px;}
+  
+  .all_elements .advantages-img-362 img{
+    width: 150px;
+    height: 150px;}
+  
+    .advantages{
+      background-image: url("../media/bakground-376.jpg");
+      background-repeat: no-repeat;
+      background-size: 100% 100% ;
+      display: flex;
+      margin: 5% 5%;
+    }
+    .group h1 {
+      margin: 0;
+      font-size: 20px;
+    }
+    .text h1{
+      font-size: 20px;
+    }
+    .card span{
+      font-size: 20px;
+    }
+    .card-list .card-item .card-link{
+      width: 250px;
+      height: 440px;
+      padding: 10px;
+     
+    }
+  .card-link h1{
+    font-size: 20px;
+  }
+  .card-list{
+    padding-left: 10px;
+  }
+ 
+  .card-link .card-text {
+    height: 100px;
+  }
+  .reviews span{
+    font-size: 20px;
+  }
+  .comment{
+    margin-left:0 ;
+  }
+  .form-bakground{
+    border-radius: 15px;
+  }
+  .form{margin: 5% 5%;}
+  .info-column{
+    
+    margin: 0;
+  }
+  .info-column h1{
+    font-size: 20px;
+    margin-left: 60px;
+  }
+  .info-column p{
+    font-size: 12px;
+    width: 80%;
+    height: 100%;
+    margin-left: 30px;
+  }
+  .icon-grid{
+    width: 80%;
+    height: 100%;
+  }
+  .icon-grid p{
+    width: 100%;
+  }
+  .form-colomn{
+    margin: 6% 0 0 5%;
+    display:grid;
+    grid-template-columns: 60px 250px;
+    grid-template-rows: 35px 35px 35px 35px;
+    gap: 40px 10px;
+  }
+  #type-servis{
+    display: none;
+  }
+  .form-select{
+    width: 320px;
+  }
+  .message{
+    margin:0;
+    margin: 45px 0 0 5% ;
+  }
+  .message textarea{
+    width: 290px;
+  }
+  .btn-form{
+    background: #ffffff5b;
+    border: 2px solid #DBBE3C;
+    border-radius: 20px;
+    margin-left:  20%;
+    text-align: center;
+    width: 160px;
+    height: 40px;
+      }
+  .logo{
+    width: 130px;
+    height: 80%;
+    margin-left: 20%;
+  }
+  .logo img{
+    width: 130px;
+    height: 50%;
+  }
+  .wrap{
+    display: block;
+  }
+  .wrap nav ul{
+    display: grid;
+    grid-template-columns: 150px 150px  ;
+    grid-template-rows: 50px 50px 50px ;
+    padding: 0;
+    margin-top: 20%;
+  }
+  #facebook{
+    display: none;
+  }
+  #facebook-376{
+    display: block;
+    
+  }
+}
