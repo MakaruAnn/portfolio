@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\main.style.css">
+    <title>Формы</title>
+</head>
+<body background="img\фон.jpg" >
+    <div class="container" >
+    <!--Левая часть-->
+          <div class="left">
+            <h1>Привет, друг!</h1>
+            <p>Введите свои личные данные и отправляйтесь в путешествие вместе с нами</p>
+          </div>
+    <!--Правая часть-->
+         <div class="sign-up">
+            <h1>Регистрация</h1>
+
+    <form id="register" method="post">
+                    
+    <label for="name">Имя</label>
+    <input type="text" placeholder="Введите имя" required>
+    
+    <label for="surname">Фамилия</label>
+    <input type="text" placeholder="Введите фамилию" required>
+
+    <label for="patronymic">Отчество</label>
+    <input type="text" placeholder="Введите отчество">
+   
+    <label>Выберете пол:</label>
+    <div class="gender" style="width: 60px;" >
+    <input type="radio" id="male" name="gender">
+    <label for="male" style="margin-right: 15px;">Мужской</label>
+    <input type="radio" id="female" name="gender">
+    <label for="female">Женский</label>
+    </div>
+
+    <label for="data">Дата рождения</label>
+    <input type="date" style="color: #2e5e69;">
+
+    <label for="mail">E-mail</label>
+    <input type="email" id="email" placeholder="Введите e-mail">
+
+    <label for="telefhone">Телефон</label>
+    <input type="tel" id="telefhone" placeholder="Введите номер телефона">
+
+    <label for="password ">Придумайте пароль</label>
+    <input type="password" id="password " placeholder="Введите пароль">
+    
+      </form>
+     <section>
+        <p>Получить код подтверждения</p>
+        <select style="height: 40px;" >
+            <option>По SMS</option>
+            <option>По email</option>
+         </select>
+            </section>
+            
+    <button type="submit" style="margin-left: 9vw;   margin-top: 15px;">Зарегистрироваться</button >
+
+          </div>
+      </div>
+    
+</body>
+</html>
